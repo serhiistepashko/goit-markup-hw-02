@@ -1,0 +1,188 @@
+body {
+  font-family: "Roboto", "Times New Roman", sans-serif;
+  color: #212121;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.link-logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: #000;
+  text-decoration: none;
+}
+
+.link-logo > span {
+  color: #2196f3
+}
+
+.link {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: #212121;
+  text-decoration: none;
+}
+.link:hover {
+  color:#2196f3;
+}
+
+.link:focus {
+  color:#2196f3;
+}
+
+.link-contacts .link {
+  color: #757575
+}
+
+.link-contacts .link:hover {
+  color:#2196f3;
+}
+
+.link-contacts .link:focus {
+  color: #2196f3;
+}
+
+.hero {
+  background-color: #2f303A;
+  color: #fff;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.hero-btn {
+  background-color:#2196f3;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.9;
+  border: none;
+}
+.hero-btn:hover {
+  background-color: #0b8cf5;
+}
+
+.points {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;  
+}
+
+.description {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color:#757575;
+}
+
+.our-job {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.03;
+}
+
+.our-team {
+   font-size: 36px;
+   font-weight: 700;
+   line-height: 1.2;
+   letter-spacing: 0.03;
+
+}
+
+.workers {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.position {
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color:#757575;
+}
+
+.page-bottom {
+  background-color: #2f303A;
+}
+
+.link-bottom {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color:#fff;
+  text-decoration: none;
+}
+
+.link-bottom:hover {
+  color: #2196f3;
+}
+
+.link-bottom:focus {
+  color: #2196f3;
+}
+
+.link-logo-bottom {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color:#fff;
+  text-decoration: none;
+}
+
+.link-logo-bottom > span {
+  color: #2196f3
+}
+
+.btn {
+  background-color: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03;
+}
+
+.btn:hover {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+.btn:focus {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+.our-works   {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.work-type {
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+
+
+
+
