@@ -1,24 +1,46 @@
+:root {
+  --primary-color: #212121;
+  --secondary-color: #757575;
+  --banner-color: #2f303a;
+  --white-color: #fff;
+  --black-color: #000;
+  --bluelite-color: #2196f3;
+  --btnhover-color: #0b79d3;
+  --bckgrnd-color: #f5f4fa;
+  --main-font-family: "Roboto";
+  --additional-font-family: "Raleway"
+}
+
 body {
-  font-family: "Roboto", "Times New Roman", sans-serif;
-  color: #212121;
+  font-family: var(--main-font-family), "Times New Roman", sans-serif;
+  color: var(--primary-color);
 }
 
 ul {
   list-style-type: none;
 }
 
+.sr-only {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
 .link-logo {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--additional-font-family), sans-serif;
   font-size: 26px;
   font-weight: 700;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  color: #000;
+  color: var(--black-color);
   text-decoration: none;
 }
 
 .link-logo > span {
-  color: #2196f3
+  color: var(--bluelite-color);
 }
 
 .link {
@@ -26,53 +48,59 @@ ul {
   font-weight: 500;
   line-height: 1.1;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--primary-color);
   text-decoration: none;
 }
 .link:hover {
-  color:#2196f3;
+  color: var(--bluelite-color);
 }
 
 .link:focus {
-  color:#2196f3;
+  color: var(--bluelite-color);
 }
 
 .link-contacts .link {
-  color: #757575
+  color: var(--secondary-color);
 }
 
 .link-contacts .link:hover {
-  color:#2196f3;
+  color:var(--bluelite-color);
 }
 
 .link-contacts .link:focus {
-  color: #2196f3;
+  color: var(--bluelite-color);
 }
 
 .hero {
-  background-color: #2f303A;
-  color: #fff;
-  font-size: 44px;
-  font-weight: 900;
-  line-height: 1.36;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
+  background-color: var(--banner-color);
+  color: var(--white-color);
+}
+
+.hero-heading {
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
 }
 
 .hero-btn {
-  background-color:#2196f3;
-  color: #fff;
+  background-color: var(--bluelite-color);
+  color: var(--white-color);
   font-size: 16px;
   font-weight: 700;
   line-height: 1.9;
   border: none;
 }
 .hero-btn:hover {
-  background-color: #0b8cf5;
+  background-color: var(--btnhover-color);
+}
+
+.hidden-heading {
+  opacity: 0;
 }
 
 .points {
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.03em;
@@ -83,19 +111,21 @@ ul {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  color:#757575;
+  color: var(--secondary-color);
 }
 
-.our-job {
+.our-job-heading {
   font-size: 36px;
-  font-weight: 700;
   line-height: 1.2;
-  letter-spacing: 0.03;
+  letter-spacing: 0.03em;
 }
 
 .our-team {
+  background-color: var(--bckgrnd-color);
+}
+
+.our-team-heading {
    font-size: 36px;
-   font-weight: 700;
    line-height: 1.2;
    letter-spacing: 0.03;
 
@@ -112,60 +142,63 @@ ul {
     font-size: 16px;
     line-height: 1.2;
     letter-spacing: 0.03em;
-    color:#757575;
+    color: var(--secondary-color);
 }
 
 .page-bottom {
-  background-color: #2f303A;
+  background-color: var(--banner-color);
 }
 
 .link-bottom {
+  font-style: normal;
   font-size: 14px;
-  font-weight: 500;
-  line-height: 1.1;
-  letter-spacing: 0.02em;
-  color:#fff;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--white-color);
   text-decoration: none;
 }
 
 .link-bottom:hover {
-  color: #2196f3;
+  color: var(--bluelite-color);
 }
 
 .link-bottom:focus {
-  color: #2196f3;
+  color: var(--bluelite-color);
 }
 
 .link-logo-bottom {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--additional-font-family), sans-serif;
   font-size: 26px;
   font-weight: 700;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  color:#fff;
+  color: var(--white-color);
   text-decoration: none;
 }
 
 .link-logo-bottom > span {
-  color: #2196f3
+  color: var(--bluelite-color);
 }
 
 .btn {
-  background-color: #f5f4fa;
+  background-color: var(--bckgrnd-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
-  letter-spacing: 0.03;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
 }
 
 .btn:hover {
-  background-color: #2196f3;
-  color: #fff;
+  background-color: var(--bluelite-color);
+  color: var(--white-color);
 }
 
 .btn:focus {
-  background-color: #2196f3;
-  color: #fff;
+  background-color: var(--bluelite-color);
+  color: var(--white-color);
 }
 
 .our-works   {
@@ -179,7 +212,7 @@ ul {
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--secondary-color);
 }
 
 
