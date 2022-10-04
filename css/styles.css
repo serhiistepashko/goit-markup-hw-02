@@ -7,12 +7,12 @@
   --bluelite-color: #2196f3;
   --btnhover-color: #0b79d3;
   --bckgrnd-color: #f5f4fa;
-  --main-font-family: "Roboto";
-  --additional-font-family: "Raleway"
+  --main-font-family: "Roboto", sans-serif;
+  --additional-font-family: "Raleway", sans-serif;
 }
 
 body {
-  font-family: var(--main-font-family), "Times New Roman", sans-serif;
+  font-family: var(--main-font-family);
   color: var(--primary-color);
 }
 
@@ -20,17 +20,21 @@ ul {
   list-style-type: none;
 }
 
-.sr-only {
+.visually-hidden {
   position: absolute;
-  left: -10000px;
-  top: auto;
+  white-space: nowrap;
   width: 1px;
   height: 1px;
   overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
 
 .link-logo {
-  font-family: var(--additional-font-family), sans-serif;
+  font-family: var(--additional-font-family);
   font-size: 26px;
   font-weight: 700;
   line-height: 1.2;
@@ -149,12 +153,16 @@ ul {
   background-color: var(--banner-color);
 }
 
-.link-bottom {
+.location .link-bottom {
+  color: var(--white-color);
   font-style: normal;
+}
+
+.link-bottom {
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  color: var(--white-color);
+  color: var(--secondary-color);
   text-decoration: none;
 }
 
@@ -167,7 +175,7 @@ ul {
 }
 
 .link-logo-bottom {
-  font-family: var(--additional-font-family), sans-serif;
+  font-family: var(--additional-font-family);
   font-size: 26px;
   font-weight: 700;
   line-height: 1.2;
