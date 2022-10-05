@@ -33,6 +33,10 @@ ul {
   margin: -1px;
 }
 
+.contacts {
+  font-style: normal;
+}
+
 .link-logo {
   font-family: var(--additional-font-family);
   font-size: 26px;
@@ -100,10 +104,6 @@ ul {
   background-color: var(--btnhover-color);
 }
 
-.hidden-heading {
-  opacity: 0;
-}
-
 .points {
   font-size: 14px;
   line-height: 1.1;
@@ -155,7 +155,6 @@ ul {
 
 .location .link-bottom {
   color: var(--white-color);
-  font-style: normal;
 }
 
 .link-bottom {
